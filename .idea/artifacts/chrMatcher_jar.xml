@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="chrMatcher:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/chrMatcher_jar</output-path>
+    <root id="archive" name="chrMatcher.jar">
+      <element id="module-output" name="chrMatcher" />
+    </root>
+  </artifact>
+</component>
