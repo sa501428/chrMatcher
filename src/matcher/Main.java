@@ -9,7 +9,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        List<Individual> individuals = IndividualVault.load();
+        List<Individual> individuals = (new IndividualVault()).load();
         MysteryLibrary mysteryLibrary = new MysteryLibrary(args[args.length - 1]);
 
         int[] diffs = new int[individuals.size()];
